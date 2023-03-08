@@ -28,14 +28,14 @@ import Trophy from 'src/views/dashboard/Trophy'
 import { createClient } from 'next-sanity'
 
 const client = createClient({
-  projectId: 't0tgcmpy',
+  projectId: 'ow68do12',
   dataset: 'production',
   apiVersion: '2021-10-14',
   useCdn: false
 })
 
 export async function getStaticProps() {
-  const app = await client.fetch(`*[_type == "allCalc"]`)
+  const app = await client.fetch(`*[_type == "allCodeBeautify"]`)
 
   return {
     props: {

@@ -1,7 +1,7 @@
 export default {
-  name: 'app',
+  name: 'allCodeBeautify',
   type: 'document',
-  title: 'app',
+  title: 'allCodeBeautify',
   fields: [
     {
       name: 'name',
@@ -21,7 +21,7 @@ export default {
     {
       title: 'Enter Link',
       name: 'url',
-      type: 'url',
+      type: 'string',
     },
     {
       title: 'Image URL',
@@ -34,23 +34,5 @@ export default {
       type: 'string',
       description: 'Make it catchy',
     },
-    {
-      title: 'TypeOfCalculator',
-      name: 'typCal',
-      type: 'string',
-      description: 'Make related calculator',
-    },
-    {
-      title: 'Content', 
-      name: 'content',
-      type: 'array', 
-      of: [{type: 'block'}]
-    },
-    {
-      title: 'Related',
-      name: 'Related',
-      type: 'array',
-      of: [{type: 'url'}]
-    }
   ],
 }

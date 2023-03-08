@@ -18,9 +18,9 @@ const navigation = () => {
       sectionTitle: 'Apps'
     },
     {
-      title: 'Ca',
+      title: 'All Code Beautify',
       icon: CalculatorIcon,
-      path: '/cal'
+      path: '/allCodeBeautify'
     },
     {
       title: 'Finance Calculators',
