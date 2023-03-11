@@ -6,6 +6,7 @@ import FunctionsIcon from 'mdi-material-ui/Function'
 import HospitalIcon from 'mdi-material-ui/Hospital'
 import CurrencyInrIcon from 'mdi-material-ui/CurrencyInr'
 import MoreIcon from 'mdi-material-ui/MathCompass'
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const navigation = () => {
   return [
@@ -19,7 +20,7 @@ const navigation = () => {
     },
     {
       title: 'All Code Beautify',
-      icon: CalculatorIcon,
+      icon: FavoriteBorderIcon,
       path: '/allCodeBeautify'
     },
     {
