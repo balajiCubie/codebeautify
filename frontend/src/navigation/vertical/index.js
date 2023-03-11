@@ -7,6 +7,9 @@ import HospitalIcon from 'mdi-material-ui/Hospital'
 import CurrencyInrIcon from 'mdi-material-ui/CurrencyInr'
 import MoreIcon from 'mdi-material-ui/MathCompass'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import FiberNewIcon from '@mui/icons-material/FiberNew';
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 
 const navigation = () => {
   return [
@@ -24,22 +27,22 @@ const navigation = () => {
       path: '/allCodeBeautify'
     },
     {
-      title: 'Finance Calculators',
-      icon: CurrencyInrIcon,
+      title: 'Popular Functionality',
+      icon: ArrowCircleUpIcon,
       path: '/finance-calculators'
     },
     {
-      title: 'Health Calculators',
-      icon: HospitalIcon,
+      title: 'New Functionality',
+      icon: FiberNewIcon,
       path: '/health-calculators'
     },
     {
-      title: 'Math Calculators',
-      icon: FunctionsIcon,
+      title: 'Trending Tools',
+      icon: TrendingUpIcon,
       path: '/math-calculators'
     },
     {
-      title: 'Others Calculators',
+      title: 'Others Tools',
       icon: MoreIcon,
       path: '/others-calculators'
     },
